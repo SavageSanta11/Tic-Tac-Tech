@@ -1,0 +1,4 @@
+function test(){
+    var jsonData = JSON.parse(responseBody);
+postman.setEnvironmentVariable('rid', jsonData.items[0].id);
+}
